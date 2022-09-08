@@ -18,7 +18,7 @@ public class AuthController {
 	@Autowired
 	private ProducerTemplate template;
 
-    @PostMapping("/token-request")
+    @PostMapping("/token")
     public TokenResponseInfo getToken(@RequestBody TokenRequestInfo token) {
     	Object o = template.sendBody("direct:auth", ExchangePattern.InOut, token);
     
