@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
-	<groupId>fdm</groupId>
+	<groupId>cdd</groupId>
 	<artifactId>auth-srv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>auth-srv</name>
-	<description>AA Service</description>
+	<description>Authentication and Authorization Service</description>
 	
 	<properties>
 		<java.version>11</java.version>

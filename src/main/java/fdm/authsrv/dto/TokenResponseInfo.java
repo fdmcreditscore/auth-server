@@ -15,7 +15,7 @@ public class TokenResponseInfo {
 	@JsonProperty(value="expires_in")
 	private int expiresIn;
 	
-	@JsonProperty(value="token_type")
-	private String tokenType;
+//	@JsonProperty(value="token_type")
+//	private String tokenType;
 
 }

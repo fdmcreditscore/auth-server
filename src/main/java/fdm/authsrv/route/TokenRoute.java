@@ -38,7 +38,7 @@ public class TokenRoute extends RouteBuilder {
 				TokenResponseInfo resp = new TokenResponseInfo();
 				resp.setAccessToken(key.getAccessToken());
 				resp.setExpiresIn(key.getExpiresIn());
-				resp.setTokenType(key.getTokenType());
+//				resp.setTokenType(key.getTokenType());
 				exchange.getMessage().setBody(resp);
 			})
 			.removeHeaders("*")
